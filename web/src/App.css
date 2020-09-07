@@ -1,0 +1,1216 @@
+#main-content {
+  margin-left: 235px;
+}
+
+/* navbar css */
+
+.my-navbar {
+  min-height: 80px;
+  text-align: center;
+}
+
+.log-out, .profile {
+  padding: .25rem .75rem;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  float: right;
+  margin: 20px 5px;
+  display: block;
+  font-weight: bold;
+  color: #1700A0;
+  display: flex;
+}
+
+.profile i {
+  font-size: 2rem;
+}
+
+.log-out {
+  font-size: 1.75rem;
+}
+
+#ProfileDiv a {
+  display: inline-block;
+  text-align: center;
+  width: 33.33%;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.my-navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  color: #1D2681;
+  border-radius: .25rem;
+  float: right;
+  margin: 20px 20px 0 0;
+  display: block;
+}
+
+.my-navbar-nav {
+  background-color: #1D2681;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.my-navbar-brand {
+  height: 80px;
+  font-size: 18px;
+  line-height: 80px;
+  text-decoration: none!important;
+  color: black;
+  font-weight: bold;
+}
+
+.brand-div {
+  color: white;
+  width: 235px;
+  display: inline-block;
+}
+
+.brand-div-bigger {
+  color: white;
+  display: inline-block;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.sidenav, .minisidenav {
+  min-height: 100vh;
+  height: auto;
+  width: 235px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1D2681;
+  transition: 0.5s;
+  padding-top: 80px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.minisidenav {
+  width: 50px;
+  padding-top: 100px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.minisidenav a {
+  padding: 8px 15px;
+  border-radius: 50px 0 0 50px;
+}
+
+.my-navbar-collapse li:first-child {
+  cursor: pointer;
+  border-bottom: 1.5px solid white;
+}
+
+.sidenav a, .my-nav-item a, .my-nav-item p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #F2F2F2;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .closeNavDiv span:hover, .openNav:hover, .my-nav-item a:hover, .my-nav-item p:hover {
+  color: #818181;
+}
+
+.closeNavDiv {
+  width: 10px;
+  margin-left: 225px;
+  padding-top: 180px;
+  color: white;
+  height: 90vh;
+  transition: 0.3s;
+}
+
+.closeNavDiv span {
+  cursor: pointer;
+}
+
+.openNavDiv {
+  width: 50px;
+  line-height: 68px;
+  padding: 7px 0 6px 0;
+  height: 100%;
+  display: inline-block;
+  color: white;
+  background-color: rgb(29, 38, 129);
+  text-align: center;
+}
+
+.openNav {
+  font-size: 30px;
+  line-height: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/*Form Validation*/
+
+.form-errors {
+  color: red;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.form-errors-dark-bg {
+  color: #ffbf00;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+/* login css */
+
+.login-btn:hover {
+  background-color: rgba(0, 190, 145, 0.5);
+}
+
+#resendMFA {
+  color: orange;
+}
+
+/* verification code */
+
+.digit-group input {
+  width: 45px;
+  height: 50px;
+  background-color: lighten(#0f0f1a, 5%);
+  border: none;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: black;
+  margin: 0 2px;
+}
+
+.splitter {
+  padding: 0 5px;
+  color: white;
+  font-size: 16px;
+}
+
+/* dashboard */
+
+.dashboard-left-div {
+  width: 57%;
+  height: 80vh;
+}
+
+.dashboard-right-div {
+  width: 39%;
+  margin-left: 25px;
+}
+
+.dashboard-table-div {
+  max-height: 65vh;
+  margin: 0 10px 10px 10px;
+}
+
+.dashboard-right-div .card-body{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.rpl-rating, .passenger-rating {
+  font-size: 13px;
+  width: 49%;
+  height: 19vh;
+  margin-bottom: 1vh;
+}
+
+.rpl-rating p, .passenger-rating p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.rpl-rating {
+  margin-left: 2%;
+}
+
+.pending-dashboard-div{
+  height: 60vh;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.pending-dashboard-div > .row {
+  background-image: linear-gradient(to right, #FF5500, orange);
+}
+
+.pending-dashboard-div .content {
+  height: 50vh;
+  overflow: auto;
+}
+
+.pending-dashboard-div .content .row{
+  min-width: 400px;
+}
+
+.pending-btn{
+  min-width: 50px;
+}
+
+.pending-btn img{
+  cursor: pointer;
+}
+
+.dashboard-button-div {
+  text-align: center;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+/* tables css */
+.users-tab-btn-mobile{
+  display: none;
+}
+
+.table-btn{    
+  background-color: rgb(222, 225, 230);
+  cursor: pointer;
+}
+
+.table-btn-selected{
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+
+.table-btn, .table-btn-selected{
+  font-size: 14px;
+  font-weight: bold;
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0!important;
+}
+
+.table-btn p, .table-btn-selected p {
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.table-btn:hover{
+  background-color: rgba(222, 225, 230, 0.7);
+}
+
+.data-div {
+  width: 100%;
+  max-height: 100vh;
+}
+
+.data-table {
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.dashboard-table {
+  min-width: 650px;
+}
+
+.overflow-data-table{
+  overflow-x: auto;
+  max-height: 60vh;
+}
+
+.data-table th {
+  border-bottom: solid 2px lightgray;
+}
+
+.data-table td {
+  border-bottom: solid 0.1px lightgray;
+}
+
+.data-table th, .data-table td {
+  text-align: left;
+  padding: 8px;
+}
+
+.data-table .even{
+  background-color: rgba(204, 255, 248, 0.5);
+}
+
+.page-item.active .page-link {
+  z-index: 0!important;
+}
+
+.table-title{
+  font-size: 19px;
+  color: #42D0BA;
+  font-weight: bold;
+}
+
+/* Form Modal Css */
+
+.form-modal{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.form-content{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 650px;
+}
+
+.close-form{
+  margin-right: -5px;
+  float: right;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close-form:hover, .close-form:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.form-title-div{
+  background-color: rgba(184, 234, 241, 0.5);
+  color: rgb(48, 110, 129);
+  margin: 0 -1rem;
+  padding: 15px;
+  text-align: left;
+}
+
+.form-title-div h5{
+  margin-bottom: 0;
+}
+
+.form-hint{
+  color: darkgray;
+  font-size: 12px;
+}
+
+/* Annoucements */
+.table_delete{
+  cursor: pointer;
+}
+
+/* ------ Dashboard Gauge Style ---------- */
+.gauge-container {
+  padding: 10px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#gaugePassenger > .gauge > .dial {
+  stroke: rgb(47, 227, 255);
+  stroke-width: 3;
+  fill: rgba(0, 0, 0, 0);
+}
+#gaugePassenger > .gauge > .value {
+  stroke: #03a9f4;
+  stroke-width: 6;
+  fill: rgba(0, 0, 0, 0);
+}
+#gaugePassenger > .gauge > .value-text {
+  fill: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#gaugeRPL > .gauge > .dial {
+  stroke: rgb(95, 255, 135);
+  stroke-width: 3;
+  fill: rgba(0, 0, 0, 0);
+}
+#gaugeRPL > .gauge > .value {
+  stroke: #3abe6d;
+  stroke-width: 6;
+  fill: rgba(0, 0, 0, 0);
+}
+#gaugeRPL > .gauge > .value-text {
+  fill: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Booking Calendar */
+/*body { margin-top: 3%; }*/
+
+.calendar, .calendar_weekdays, .calendar_content {
+    max-width: 350px;
+}
+.calendar {
+    font-family:'Muli', sans-serif;
+    font-weight: 400;
+    height: 203.9px;
+    border: solid 1.25px gray;
+}
+.calendar_content, .calendar_weekdays, .calendar_header {
+    position: relative;
+    overflow: hidden;
+}
+.calendar_weekdays div {
+    display:inline-block;
+    vertical-align:top;
+}
+.calendar_weekdays div, .calendar_content div {
+    width: 14.28571%;
+    overflow: hidden;
+    text-align: center;
+    background-color: transparent;
+    color: #6f6f6f;
+    font-size: 14px;
+}
+.calendar_content div {
+    border: 1px solid transparent;
+    float: left;
+}
+.calendar_content div:hover {
+    border: 1px solid #dcdcdc;
+    cursor: default;
+}
+.calendar_content div.blank:hover {
+    cursor: default;
+    border: 1px solid transparent;
+}
+.calendar_content div.past-date {
+    color: #d5d5d5;
+}
+.calendar_content div.today {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(66, 209, 182);
+    border: 1px solid rgb(66, 209, 182);;
+}
+.calendar_content div.selected {
+    background-color: #f0f0f0;
+}
+
+.calendar_content div.clicked {
+  background-color: orangered;
+  color: white;
+}
+
+.calendar_header {
+    width: 100%;
+    text-align: center;
+    background-color: #1D2681;
+}
+.calendar_header h2 {
+    padding: 0 10px;
+    font-family:'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    float:left;
+    width:70%;
+    margin: 10px 0;
+}
+
+.calendar-second h2{
+  margin-left: 15%;
+}
+
+.calendar-second{
+  border-left: 0;
+}
+
+.calendar-first{
+  border-right: 0;
+}
+
+.calendar-first .switch-right{
+  display: none;
+}
+
+.calendar-divider{
+  height: 203.9px;
+}
+
+button.switch-month {
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    border: none;
+    color: #dcdcdc;
+    float: left;
+    width:15%;
+    transition: color .2s;
+    margin-top: 10px;
+}
+button.switch-month:hover {
+    color: orangered;
+}
+
+.bookings-div{
+  min-height: 70vh;
+  max-height: 70vh;
+  overflow: auto;
+  margin: 3px;
+}
+
+.overflow{
+  overflow: auto;
+}
+
+.booking-pic-div{
+  display:inline-block;
+  text-align:right;
+  width:15%;
+}
+
+.booking-data-row{
+  min-width: 750px;
+}
+
+.booking-header{
+  border-bottom:0.25px solid black;
+  font-size: 18px;
+}
+
+#booking-filter-button{
+  max-width: 350px;
+  margin:1em auto;
+}
+
+#bookingFilters{
+  max-width: 350px;
+  text-align: left;
+  margin: 0 auto 1em auto;
+  border: #007bff solid 1px;
+  border-radius: 0.25em;
+  padding:1em;
+  max-height: 40vh;
+  overflow: auto;
+}
+
+#bookingFilters .content{
+  min-width: 250px;
+}
+
+.booking-calendar-divs{
+  display: inline-flex;
+}
+
+.bookings-div .tab-content{
+  border-left: 1px solid #dee2e6;
+  border-right:  1px solid #dee2e6;
+  border-bottom:  1px solid #dee2e6;
+  background-color: white;
+  padding: 1em;
+}
+
+.booking-veh-table{
+  width: 100%;
+}
+
+.booking-veh-table td, .booking-veh-table th{
+  border: 1px solid gray;
+  padding: 0.25em 0.5em;
+}
+
+.booking-veh-table tbody:nth-child(even) {
+  background-color: rgba(204, 255, 248, 0.5);
+}
+
+.booking-cal-btn{
+  width: 100%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  max-width: 350px;
+  margin: 0.5em auto;
+  padding: 0.25em;
+}
+
+.booking-cal-btn .header {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+}
+
+.booking-cal-btn .text {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.7;
+}
+
+.mytooltip {
+  margin-top: 1em;
+  position: relative;
+  display: inline-block;
+  color: blue;
+  font-style: italic;
+}
+
+.mytooltip ~ .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: -30%;
+  margin-left: -60px;
+}
+
+.mytooltip ~ .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.mytooltip:hover ~  .tooltiptext {
+  visibility: visible;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  left: 0;
+  right: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+#bookingVehForm{
+  background-color: rgba(204, 255, 248, 0.5);
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+#vehicleList{
+  border:1px solid lightgray;
+  padding:1em 1em 0 1em;
+  overflow: auto;
+  max-height: 200px;
+}
+
+/* schedule */
+.schedule-data-div{
+  overflow: auto;
+  max-height: 70vh;
+}
+
+@media (max-height: 900px) {
+  .schedule-data-div{
+    max-height: 700px;
+  }
+  .pending-dashboard-div{
+    height: 600px;
+  }
+  .pending-dashboard-div .content {
+    min-height: 500px;
+  }
+  .sidenav, .minisidenav {
+    min-height: 1000px;
+  }
+  .minisidenav {
+    min-height: 1000px;
+  }
+  .closeNavDiv {
+    height: 900px;
+  }
+  .dashboard-left-div {
+    height: 800px;
+  }
+  .dashboard-table-div {
+    max-height: 650px;
+  }
+  .rpl-rating, .passenger-rating {
+    height: 195px;
+    margin-bottom: 5px;
+  }
+  .data-div {
+    max-height: 1000px;
+  }
+  .overflow-data-table{
+    max-height: 600px;
+  }
+  .bookings-div{
+    min-height: 700px;
+    max-height: 700px;
+  }
+  #bookingFilters{
+    max-height: 400px;
+  }
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+@media (min-width: 991.98px) {
+  .my-navbar-nav>li>a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+  .my-navbar-toggler, .my-navbar-collapse {
+    display: none;
+  }
+  .calendar-first .switch-right{
+    display: block;
+  }
+  .calendar-second{
+    display: none;
+  }
+  .calendar-first{
+    border-right: 1.25px solid gray;
+  }
+}
+
+@media (min-width: 1800px) {
+  .calendar-first .switch-right{
+    display: none;
+  }
+  .calendar-second{
+    display: block;
+  }
+  .calendar-first{
+    border-right: 0px;
+  }
+}
+
+/* mobile view */
+
+@media (max-width: 575.98px) {
+  .calendar-first .switch-right{
+    display: block;
+  }
+  .calendar-second, .users-tab-btn{
+    display: none;
+  }
+  .calendar-first{
+    border-right: 1.25px solid gray;
+  }
+  .users-tab-btn-mobile{
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #UserTable_filter label{
+    width: 85%!important;
+  }
+  .form-content{
+    width: 80%;
+  }
+  .bookings-div .nav-tabs .active{
+    border-color: #dee2e6!important;
+  }
+}
+
+/* tablet or small desktop view */
+
+@media (max-width: 991.98px) {
+  .mytooltip:active ~  .tooltiptext {
+    visibility: visible;
+  }
+  .booking-data-row{
+    min-width: 0;
+  }
+  .data-div, .overflow-data-table, #bookingFilters ,.dashboard-table-div, .schedule-data-div{
+    max-height: none;
+  }
+
+  .rpl-rating, .passenger-rating, .pending-dashboard-div {
+    height: auto;
+    margin-bottom: 1em;
+  }
+  #main-content {
+    margin-left: 0!important;
+    margin-right: 0;
+    width: 100%;
+  }
+  .openNav, .sidenav, .openNavDiv, .minisidenav, .profile, .log-out {
+    display: none;
+  }
+  .brand-div {
+    background-color: white!important;
+    color: black!important;
+  }
+  .dashboard-left-div {
+    height: auto;
+    width: 100%;
+  }
+  .pending-dashboard-div .content {
+    min-height: 600px;
+  }
+  .dashboard-right-div {
+    width: 100%;
+    margin-left: 0;
+    padding: 1rem!important;
+  }
+  .digit-group input {
+    width: 12%;
+  }
+}
+
+/* Table, Button, ToggleButton - Hui Xuan */
+
+.purpose-button-div {
+  text-align: center;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-right: 2px;
+  margin-bottom: -4px;
+}
+
+.purpose-title {
+  font-size: 19px;
+  color: #42D0BA;
+  font-weight: bold;
+  /* 14pts */
+}
+
+.table-striped>tbody>tr:nth-child(2n+1)>td, .table-striped>tbody>tr:nth-child(2n+1)>th {
+  background-color: rgba(204, 255, 248, 0.5);
+}
+
+/* .table>thead>tr:first-child>th, .table>tbody>tr:first-child>td {
+  border-top: none;
+} */
+
+.table>thead>tr:first-child>th {
+  border-top: #4D4D4D solid 4px !important;
+}
+
+.btn-circle {
+  border-radius: 50%!important;
+  width: 40px;
+}
+
+.toggle-button {
+  margin: 0 20px;
+}
+
+.tab-border{
+  border-bottom: 3px solid rgb(77, 77, 77);
+}
+
+.toggle-button {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.toggle-button label {
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+  align-items: center;
+}
+
+.toggle-button input {
+  display: none;
+}
+
+.toggleButtonStatus label {
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.2s;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.toggleButtonStatus label:before, .toggleButtonStatus label:after {
+  position: absolute;
+  right: 1.2rem;
+  transition: all 0.2s 0.1s ease-out;
+}
+
+.toggleButtonStatus label:before {
+  content: attr(data-NA-text);
+  left: 12px;
+}
+
+.toggleButtonStatus label:after {
+  content: attr(data-A-text);
+}
+
+.toggleButtonStatus input[type="checkbox"]+label {
+  width: 75px;
+  background: #61b136;
+}
+
+.toggleButtonStatus input[type="checkbox"]+label:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+
+.toggleButtonStatus input[type="checkbox"]+label:after {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.toggleButtonStatus input[type="checkbox"]:checked~label {
+  width: 75px;
+  background: #ff5335;
+}
+
+.toggleButtonStatus input[type="checkbox"]:checked~label:before {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.toggleButtonStatus input[type="checkbox"]:checked~label:after {
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+
+.toggleButtonStatus .toggle-button__icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.toggleButtonStatus .toggle-button__icon:before, .toggleButtonStatus .toggle-button__icon:after {
+  height: 3px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.toggleButtonStatus .toggle-button__icon:before {
+  width: 25px;
+  transform: rotate(45deg);
+}
+
+.toggleButtonStatus .toggle-button__icon:after {
+  width: 25px;
+  transform: rotate(-45deg);
+}
+
+.additionalInfo {
+  font-size: 10px;
+}
+
+.textboxError {
+  border-color: lightcoral !important;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.6) !important;
+}
+
+
+/* Schedule time button */
+.scheduleTimebtn {
+  margin: 10px;
+  border: 2px solid #42D0BA;
+  border-radius: 5px;
+  background-color: white;
+  width: 100px;
+  height: 60px;
+}
+
+.scheduleTimebtn:hover {
+  background-color: rgb(74, 230, 206);
+}
+
+.IAscheduleTimebtn{
+  margin: 10px;
+  border: 2px solid #888;
+  border-radius: 5px;
+  background-color: white;
+  width: 100px;
+  height: 60px;
+}
+
+.IAscheduleTimebtn:hover {
+  background-color: rgb(161, 161, 161);
+}
+
+/* Schedule template button */
+.scheduleTemplatebtn {
+  margin: 5px;
+  border: 2px solid #42D0BA;
+  border-radius: 5px;
+  background-color: white;
+  width: 85px;
+  height: 40px;
+  color: black;
+}
+
+#TemplateForm{
+  background-color: rgba(204, 255, 248, 0.5);
+}
+
+#templateList{
+  border:1px solid lightgray;
+  padding:1em 1em 0 1em;
+  overflow: auto;
+  max-height: 200px;
+}
+
+/* Profile */
+.ratingsRed {
+  color: rgb(255, 102, 0);
+  font-size: 30px;
+}
+
+.ratingsBlack {
+  color: rgb(53, 49, 49);
+  font-size: 30px;
+}
+
+/* to remove the side arrows from input type number*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+} 
+
+.otpOuterDiv {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.otpDiv div input {
+  width: 45px !important;
+  height: 50px;
+  background-color: lighten(#0f0f1a, 5%);
+  border: none;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: black;
+  margin: 0 2px;
+}
+
+#loginVerifyBtn {
+  background-color: #00BE91;
+  width: 300px;
+  color: white;
+  margin: 0 auto;
+}
+
+#loginVerifyBtn:hover {
+  background-color: rgba(0, 190, 145, 0.5);
+}
+
+/*when using mobile*/
+@media only screen and (max-width: 600px) {
+  .otpDiv div input {
+    width: 75% !important;
+  }
+  .splitter {
+    padding: 0;
+  }
+  #loginVerifyBtn {
+    width: 100%;
+  }
+}
+
+.error404Image {
+  margin: auto;
+}
+
+.maintenance_bottom {
+  position: fixed; 
+  bottom: 0%;
+  width: 100%; 
+  left: 0;
+}
