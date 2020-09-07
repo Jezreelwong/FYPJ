@@ -1,0 +1,30 @@
+{
+    "1": {
+        "label": "Daily Ferry Service",
+        "value": "1"
+    },
+    "2": {
+        "label": "Recruit Book In/Out",
+        "value": "2"
+    },
+    "3": {
+        "label": "Direct Enlistment",
+        "value": "3"
+    },
+    "4": {
+        "label": "Graduation Parade",
+        "value": "4"
+    },
+    "5": {
+        "label": "Singapore Permanent Resident Visit",
+        "value": "5"
+    },
+    "6": {
+        "label": "Training Qualification Course (TQC)",
+        "value": "6"
+    },
+    "7": {
+        "label": "Family Visit",
+        "value": "7"
+    }
+}

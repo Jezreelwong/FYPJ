@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "182136828567",
+    "firebase_url": "https://sg-edu-nyp-sit-lionapp.firebaseio.com",
+    "project_id": "sg-edu-nyp-sit-lionapp",
+    "storage_bucket": "sg-edu-nyp-sit-lionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182136828567:android:2e74c0c1db6b77a314efd2",
+        "android_client_info": {
+          "package_name": "sg.edu.nyp.sit.lionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182136828567-7atmhpmsd1ar960qoahm41k94ak21biu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdVPoHgdPEvb4a2OcyOChuiSkHIj31P8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182136828567-7atmhpmsd1ar960qoahm41k94ak21biu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

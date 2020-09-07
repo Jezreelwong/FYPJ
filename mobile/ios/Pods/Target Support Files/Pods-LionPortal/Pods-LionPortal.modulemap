@@ -1,0 +1,6 @@
+module Pods_LionPortal {
+  umbrella header "Pods-LionPortal-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,60 @@
+{
+    "DICJLG":  {
+        "BookingCode": "DICJLG",
+        "BookingDate": "Mon Jun 1 2020 07:00:00 GMT+0800 (+08)",
+        "OnBoardTime":"Sat May 2 2020 08:30:00 GMT+0800 (+08)",
+        "From": "SFT-TFT",
+        "BookedBy": "Black Panther",
+        "ServiceProviderType": "PASSENGER",
+        "numPassenger": 20,
+        "Status": "ACCEPTED",
+        "Purpose":"Direct enlistment"
+        
+    },
+    "DSZEUE": {
+        "BookingCode": "DSZEUE",
+        "BookingDate": "Wed Apr 15 2020 05:00:00 GMT+0800 (+08)",
+        "OnBoardTime":"Wed Apr 15 2020 08:30:00 GMT+0800 (+08)",
+        "From": "Mainland Ramp-Ladang Ramp",
+        "BookedBy": "Blue Frog",
+        "ServiceProviderType": "RPL",
+        "numPassenger": 0,
+        "Status": "REQUESTED",
+        "Purpose":"Direct enlistment"
+    },
+    "AWEJYG": {
+        "BookingCode": "AWEJYG",
+        "BookingDate": "Tue Apr 28 2020 15:00:00 GMT+0800 (+08)",
+        "OnBoardTime":"Tue Apr 28  2020 08:30:00 GMT+0800 (+08)",
+        "From": "SFT-TFT",
+        "BookedBy": "Blue Frog",
+        "ServiceProviderType": "RPL",
+        "numPassenger": 0,
+        "Status": "REJECTED",
+        "Purpose":"Direct enlistment"
+    },
+    "UTAXYS": {
+        "BookingCode": "UTAXYS",
+        "BookingDate": "Wed Apr 29 2020 06:00:00 GMT+0800 (+08)",
+        "OnBoardTime":"Wed Apr 29 2020 08:30:00 GMT+0800 (+08)",
+        "From": "Mainland Ramp-Ladang Ramp",
+        "BookedBy": "Pink Dolphin",
+        "ServiceProviderType": "PASSENGER",
+        "numPassenger": 27,
+        "Status": "REJECTED",
+        "Purpose":"Direct enlistment"
+    },
+
+    "AAAAAA": {
+        "BookingCode": "AAAAAA",
+        "BookingDate": "Mon May 4 2020 06:00:00 GMT+0800 (+08)",
+        "OnBoardTime":"Mon May 4  2020 08:30:00 GMT+0800 (+08)",
+        "From": "Mainland Ramp-Ladang Ramp",
+        "BookedBy": "Pink Dolphin",
+        "ServiceProviderType": "PASSENGER",
+        "numPassenger": 10,
+        "Status": "ACCEPTED",
+        "Purpose":"Direct enlistment"
+    }
+
+}

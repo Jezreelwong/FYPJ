@@ -1,0 +1,15 @@
+FOR ANDROID DATEPICKER CALENDAR
+------------------------
+x: 50 = sunday
+x: 75 = monday
+x: 100 = tuesday
+x: 150 = wednesday
+x: 175 = thursday
+x: 200 = friday
+x: 250 = saturday
+
+y: 120 = 1st row
+y: 175 = 2nd row
+y: 200 = 3rd row
+y: 225 = 4th row
+y: 275 = 5th row
