@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">182136828567-7atmhpmsd1ar960qoahm41k94ak21biu.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sg-edu-nyp-sit-lionapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">182136828567</string>
+    <string name="google_api_key" translatable="false">AIzaSyBdVPoHgdPEvb4a2OcyOChuiSkHIj31P8s</string>
+    <string name="google_app_id" translatable="false">1:182136828567:android:2e74c0c1db6b77a314efd2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBdVPoHgdPEvb4a2OcyOChuiSkHIj31P8s</string>
+    <string name="google_storage_bucket" translatable="false">sg-edu-nyp-sit-lionapp.appspot.com</string>
+    <string name="project_id" translatable="false">sg-edu-nyp-sit-lionapp</string>
+</resources>

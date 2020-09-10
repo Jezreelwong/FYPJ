@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wix:detox:17.4.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd4c167560f89c0f4e5b28f627280c85/jetified-detox-17.4.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd4c167560f89c0f4e5b28f627280c85/jetified-detox-17.4.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../node_modules/detox/Detox-android/com/wix/detox/17.4.7/detox-17.4.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../node_modules/detox/Detox-android/com/wix/detox/17.4.7/detox-17.4.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
