@@ -1,4 +1,0 @@
-# Referenced at D:\NYP FYPJ\App\FYPJ_LionPortal_FYPJLionPortalWeb\mobile\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:49
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at D:\NYP FYPJ\App\FYPJ_LionPortal_FYPJLionPortalWeb\mobile\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:49
--keep class sg.edu.nyp.sit.lionapp.MainApplication { <init>(); }
