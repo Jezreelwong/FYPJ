@@ -37,7 +37,7 @@
     "react-scripts": "3.4.1",
     "reactjs-popup": "^1.5.0",
     "secure-web-storage": "^1.0.2",
-    "xlsx": "^0.16.2"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
